@@ -1,0 +1,229 @@
+.header {
+    display: grid;
+    grid-template-columns: 20% 20%;
+    gap: 60%;
+    text-align: center;
+    color: #fff;
+}
+
+.nav a {
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    text-decoration: none;
+    background-color: #292929;
+    padding-top: 1.5rem;
+    overflow: unset;
+    max-width: 100%;
+}
+.nav a:hover {
+    background-color: #414141;
+    border-radius: 0.3rem;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    background-color: #292929;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+body {
+    background-image: url(images/background.png);
+    background-size:cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    font-family: 'Comic Neue', cursive;
+}
+
+.content {
+    background-color: #0000009f;
+    color: #ffffff;
+    padding: 5rem;
+
+    margin-top: 5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-radius: 3px;
+
+}
+
+#hcontent {
+    color:#fff;
+    font-size: 3rem;
+
+}
+
+.content p {
+    font-size: 1.5rem;
+}
+
+.contenttwo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: rem;
+
+}
+
+.contenttwo img {
+    border-radius: 0.5rem;
+}
+
+/* start of products.html */
+.products {
+    background-color: #0000009f;
+    padding: 3rem;
+    margin-top: 5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    color: #fff;
+    border-radius: 0.3rem;
+}
+
+.productstwo {
+    display: grid;
+    grid-template-columns: 20% 20% 30%;
+    gap: 15%;
+}
+.solar {
+    display: grid;
+    grid-template-rows: 97% 5%;
+    background-color: #292929;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow-x:scroll;
+}
+
+.solar a {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.solar a:hover {
+    color: #000;
+}
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+.solar::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.solar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#solarcontent {
+    margin-top: 20rem;
+    background-color: #0000009f;
+    padding: 5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.solargrid {
+    display: grid;
+    grid-template-columns: 70% 25%;
+    gap: 5rem;
+    
+}
+
+#solarcontent img {
+    width: 100%;
+    border-radius: 0.3rem;
+
+
+}
+
+#recycle {
+    margin-top: 20rem;
+    background-color: #0000009f;
+    padding: 5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.recyclegrid {
+    display: grid;
+    grid-template-columns: 70% 25%;
+    gap: 5rem;
+    
+}
+
+#recycle img {
+    width: 100%;
+    border-radius: 0.3rem;
+
+
+}
+
+#energiehome {
+    margin-top: 20rem;
+    background-color: #0000009f;
+    padding: 5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.energiegrid {
+    display: grid;
+    grid-template-columns: 70% 25%;
+    gap: 5rem;
+    
+}
+
+#energiehome img {
+    width: 100%;
+    border-radius: 0.3rem;
+
+
+}
+
+
+.solar img {
+    max-width:100%;
+    border-radius: 0.5rem;
+}
+
+.impressum {
+    background-color: #0000009f;
+    color:#fff;
+    padding: 3rem;
+    font-size: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+    border-radius: 0.3rem;
+
+}
+
+.impressum h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about {
+    background-color: #0000009f;
+    color:#fff;
+    padding: 3rem;
+    font-size: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+    border-radius: 0.3rem;
+}
+
+.about h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
